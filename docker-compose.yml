@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: bash -c "go run ."
+    volumes:
+      - .:/app
+    ports:
+      - "1234:1234"
+
+volumes:
+  web:  {}

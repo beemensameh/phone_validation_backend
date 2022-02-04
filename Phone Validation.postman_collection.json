@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "35e2f48a-62da-441c-bf84-5f845ee02868",
+		"name": "Phone Validation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Validate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/v1/customers?country_code=212&state=true",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"customers"
+					],
+					"query": [
+						{
+							"key": "country_code",
+							"value": "212"
+						},
+						{
+							"key": "state",
+							"value": "true",
+							"description": "true, false"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all countries code",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/v1/countries-code",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"countries-code"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "192.168.56.56:1234",
+			"type": "string"
+		}
+	]
+}
