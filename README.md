@@ -42,3 +42,5 @@ before you start steps you will need docker and docker compose for this. If you 
 | `state`   | `string` | **Optional**. The state (`valid` or `invalid`) |
 
 ## Screenshots
+![Screenshot from 2022-02-05 17-54-52](https://user-images.githubusercontent.com/41084077/152649235-b423c390-5e5b-402e-8c4b-d90fd0737f4f.png)
+![Screenshot from 2022-02-05 17-55-01](https://user-images.githubusercontent.com/41084077/152649236-9942ff09-7e9e-4eef-b8a4-202c326da3af.png)
